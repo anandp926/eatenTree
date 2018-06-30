@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  padding-left:8%;
+  padding-Right:8%;
+  margin-top:8%
+}
+
+@font-face {
+  font-family: 'arvo-bold';
+  src: url('./Fonts/arvo/Arvo-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'lato-italic';
+  src: url('Fonts/lato/Lato-BlackItalic.ttf');
+}
+
+@font-face {
+  font-family: 'lato-black';
+  src: url('Fonts/lato/Lato-Black.ttf');
+}
+
+.foodName{
+  font-family: 'arvo-bold';
+  font-size: 20px;
+  text-align: left;
+  font-size: medium;
+  padding-top: 1%;
+}
+
+.foodCategory{
+  font-family: 'lato-italic';
+  font-size: 11px;
+  float:left;
+  padding-left:5px;
+  padding-right:5px
+}
+.foodTaste{
+  font-family: 'lato-italic';
+  font-size: 11px;
+}
+
+.card-detail {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  margin-bottom: 5%;
+  height:370px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container-card {
+  padding: 2px 16px;
+  width:55%;
+  float: right
+}
+.image-detail{
+  width:40%;
+  border-radius: 4%;
+  padding: 1%;
+}
+
+.foodDetailName{
+  text-align: left;
+  font-family: 'arvo-bold';
+}
+
+.foodDetail{
+  text-align: justify;
+  font-family: 'lato-black';
+  padding-bottom: 1%;
+  font-size: 15px;
+}
+
+.vegCircle{
+  width:16px;
+  height:16px;
+  border-radius:8px;
+  background-color:green;
+  float:left
+}
+.nonvegCircle {
+  width:16px;
+  height:16px;
+  border-radius:8px;
+  background-color: red;
+  float:left
+}
+
+.tasteCategory{
+  padding-bottom: 10%;
+  padding-top:1%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-card {
+    width:87%;
+    padding: 2px 16px;
+    float:none
+  }
+  .image-detail{width:97%}
+  .foodDetailName{
+    text-align: center;
+  }
+  .container{
+    margin-top: 20%;
+  }
+  .card-detail{
+    height:100%
+  }
+}
+
+@media only screen and (min-device-width : 701px)
+and (max-device-width : 1024px){
+  .container-card{
+    width:97%;
+  }
+  .card-detail{
+    height:550px;
+  }
+}
