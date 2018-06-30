@@ -7,7 +7,6 @@ import FoodDetail from './component/FoodDetail'
 import Header from './component/Header'
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { connect } from 'react-redux'
-import Testing from './component/Testing'
 
 class App extends Component {
 
